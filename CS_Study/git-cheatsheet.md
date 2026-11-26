@@ -1,6 +1,4 @@
-**Git Cheat Sheet**
-
----
+**Git Cheatsheet**
 
 ### 1. Setup & Configuration
 
@@ -60,22 +58,6 @@
 
 - **`git checkout -- <file>`** – Discard changes in a file (restore last committed version).
 - **`git revert <commit>`** – Create a new commit that undoes a previous one.
-
-### 9. Tagging
-
-- **`git tag`** – List tags.
-- **`git tag -a v1.0 -m "Release 1.0"`** – Create an annotated tag.
-- **`git push origin --tags`** – Push tags to the remote.
-
-### 10. Common Helpful Options
-
-- **`-v`** – Verbose output (e.g., `git status -v`).
-- **`--all`** – Operate on all refs (e.g., `git push --all`).
-- **`--force`** – Force push (use with caution).
-
----
-
-#### Quick Reference Commands
 
 ```
 git init               # start a repo
